@@ -1,0 +1,45 @@
+.bottom-header{
+  padding: 1.875em;
+}
+
+.logo{
+  display: inline-block;
+}
+
+
+.logo__link{
+  display: inline-block;
+  text-decoration: none;
+  @include link_hover(#1d1d1d, $c_h_body);
+
+  &:hover{
+    svg{
+      fill: #1d1d1d;
+    }
+  }
+}
+
+.logo__img{
+  float: left;
+
+  svg{
+    fill: $c_h_body;
+  }
+}
+
+.logo__text{
+  font-family: Raleway-Bold, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.btn_block{
+  float: right;
+}
+
+.btn__bottom-header{
+  float: left;
+  margin: 0 0 0 1em;
+  @include block_hover($c_h_body, #fff);
+  @include link_hover(#fff, $c_h_body);
+}

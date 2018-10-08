@@ -1,0 +1,30 @@
+.menu__list{
+  display: block;
+  margin: 0 1% 0;
+  //border-bottom: 1px solid #fff;
+  text-align: justify;
+
+  &:after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    font-size: 0;
+    margin: -10px 0 0;
+  }
+}
+
+.menu__item{
+  display: inline-block;
+}
+
+.menu__link{
+  display: inline-block;
+  padding:1.875em 1em;
+  text-decoration: none;
+  @include link_hover(#fff, #aaa);
+  text-transform: uppercase;
+  font-size:0.8125em;
+  
+}

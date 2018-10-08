@@ -1,0 +1,45 @@
+.top-header{
+  background: #1d1d1d;
+  padding: 0.875em 0;
+}
+
+.top-header__list{
+  margin: 0;
+  float: right;
+}
+
+.top-header__item{
+  float: left;
+  margin:0 0 0 2.8125em;
+}
+
+.top-header__link{
+  font-size: 0.8125em;
+  font-family: 'Lato-Regular', sans-serif;
+  text-decoration: none;
+
+  @include link_hover(#fff, $c_h_body);
+}
+
+.top-header__link_p,
+.top-header__link_e{
+  &:before{
+    font-family: Lato-Bold, sans-serif;
+    font-size: 0.875em;
+    margin: 0 1em 0 0;
+  }
+}
+
+.top-header__link_p{
+  &:before{
+    content: "P";
+  }
+}
+
+.top-header__link_e{
+  &:before{
+    content: "E";
+  }
+}
+
+

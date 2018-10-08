@@ -1,0 +1,19 @@
+@mixin link_hover($static_color, $hover_color){
+  color: $static_color;
+  transition: $time;
+
+  &:hover{
+    transition: $time;
+    color: $hover_color;
+  }
+}
+
+@mixin block_hover($static_color, $hover_color){
+  background: $static_color;
+  transition: $time;
+
+  &:hover{
+    transition: $time;
+    background: $hover_color;
+  }
+}

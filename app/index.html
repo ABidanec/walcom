@@ -5,29 +5,63 @@
 	<title>Walcom</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="wrapper">
 		<header class="header">
-			<section class="top-header">
+			<section class="top-header clearfix">
 				<div class="center">
 					<ul class="top-header__list">
-						<li class="top-header__item"><a href="tel:0023334445334" class="top-header__link">+00  2333 4445 334</a></li>
-						<li class="top-header__item"><a href="mailto:custermail@hotmail.com" class="top-header__link">custermail@hotmail.com</a></li>
+						<li class="top-header__item">
+							<a href="tel:0023334445334" class="top-header__link top-header__link_p">+00  2333 4445 334</a>
+						</li>
+						<li class="top-header__item">
+							<a href="mailto:custermail@hotmail.com" class="top-header__link top-header__link_e">custermail@hotmail.com</a>
+						</li>
 					</ul>
 				</div>
 			</section>
 			<!-- .top-header -->
-			<section class="bottom-header">
+			<section class="bottom-header clearfix">
 				<div class="center">
 					<div class="logo"><a href="" class="logo__link">
-							<div class="logo__img"></div>
+							<div class="logo__img">
+								<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px" height="29px" viewBox="0 0 35 29" enable-background="new 0 0 35 29" xml:space="preserve">  <image id="image0" width="35" height="29" x="0" y="0"
+    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAdCAMAAAAXdyW2AAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABs1BMVEX/AAD/////AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/AAD/
+AAD/AAD/AAD/AAD/AAD/AAD/AAD////4qlQGAAAAj3RSTlMAACV1IG35bifP0gWLiDvl6D0Npq8L
+XfTzG8jEev2AAzHi8dTeMAijtC23mE/u8FdV71ITuQ6rFXD75jw67Gco140EhdbOIiGTQuv4aEEM
+sroQtq4JYfVOTGIdypsGywKH/uE13H84430Be/w3wxwepFb2ZfIZv5+cvhb6OT8qanMv51x89yyt
+H83FxjTMS+s1UhQAAAABYktHRAH/Ai3eAAAAB3RJTUUH4goICxca7OiyagAAAaRJREFUOMuF0ukj
+AkEUAPDJnRwppVzJLWfK0SoJIWdyE6EcyX0fCevOMf+yeVu2dlXeh23em9+baWcHIV4kJadwcoFA
+wCcoNS39P5MhxJkpiY0oC2Ocndjk5BIjzktkJFIMkS9LYOQFjFHI4xtlIQ5FkTKuKQ4TXFKqimPK
+1GS6vEJBnpVVsU11DSxRW6eBn3pZTNPQSOaamlELLKRtjWV0euiXtiFZOwz0HTFMp4HMUF1kZDSR
+kaH7rzH3QLellwxVfTDsN/ONyAJ16wCTDAohGerlGdswqY6E10ejsK9pjGvGJ6DTPhlOOxyQTk1z
+zMwsvPcc++/mtSQvWIg2i0vQ51xmjYw5zxVlxLhW10hlnT1/Em4PqaxtqFizuQVd294o493xkZJ6
+99dImIX39jl34IC5J4eSsDmCD3UsR9w4OSbV0/mQOTsnie/CxTPoEna7umZM+g1cm1S332+8DZ2z
+K2Dz+3fvTuGz3YN5gDfABiqXpsX0I2NUT880TVHQiz0vAtTmxJF41YW2CVgjNecbqrO/Bz+YCK44
+Ptn7Fvytfmm+fwDO56csjO7iMwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0xMC0wOFQxMToyMzoy
+Ni0wNzowMEz3DhQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMTAtMDhUMTE6MjM6MjYtMDc6MDA9
+qraoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAABJRU5ErkJggg==" />
+</svg>
+							</div>
 							<span class="logo__text">Walcom</span>
 						</a>
 					</div>
 					<!-- .logo -->
-					<a href="" class="btn btn__bottom-header">Logn In</a>
-					<a href="" class="btn btn__bottom-header">Sign In</a>
+					<div class="btn_block">
+						<a href="" class="btn btn__bottom-header">Logn In</a>
+						<a href="" class="btn btn__bottom-header">Sign In</a>
+					</div>
+
 				</div>
 			</section>
 			<!-- .bottom-header -->
@@ -165,13 +199,15 @@
 	</div>
 	<!-- .wrapper -->
 	<footer class="footer">
-		<ul class="soc__list">
-			<li class="soc__item"><a href="#" class="soc__link"></a></li>
-			<li class="soc__item"><a href="#" class="soc__link"></a></li>
-			<li class="soc__item"><a href="#" class="soc__link"></a></li>
-			<li class="soc__item"><a href="#" class="soc__link"></a></li>
-			<li class="soc__item"><a href="#" class="soc__link"></a></li>
-		</ul>
+		<div class="center">
+			<ul class="soc__list">
+				<li class="soc__item"><a href="#" class="soc__link"></a></li>
+				<li class="soc__item"><a href="#" class="soc__link"></a></li>
+				<li class="soc__item"><a href="#" class="soc__link"></a></li>
+				<li class="soc__item"><a href="#" class="soc__link"></a></li>
+				<li class="soc__item"><a href="#" class="soc__link"></a></li>
+			</ul>
+		</div>
 	</footer>
 	<!-- .footer -->
 </body>
