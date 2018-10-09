@@ -1,0 +1,25 @@
+.portfolio__text{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Lato-Heavy', sans-serif;
+  text-align: center;
+  padding: 9.0625em 0 15.8125em;
+}
+
+.portfolio__head{
+  font-size: 2.3125em;
+  margin: 0 0 1em 0;
+}
+
+.portfolio__prew{
+  font-size: 0.875em;
+  margin: 0 0 1em;
+}
+
+.btn__portfolio {
+  @include block_hover(#fff, rgba(255, 255, 255, .6));
+  @include link_hover($c_h_body, #ED4941);
+  margin: 0 0 1em;
+  border-radius: 1.4em;
+  font-family: "Lato-Regular", sans-serif;
+}

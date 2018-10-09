@@ -1,0 +1,34 @@
+.report{
+  margin: 0 0 5.25em;
+}
+
+.report__center{
+  width: 43.125em;
+  margin: -11.125em auto 0;
+  padding: 2.625em 5em;
+  box-shadow: -2.677px 2.973px 35px 0px rgba(24, 24, 24, 0.078);
+  background: $bg_body;
+  text-align: center;
+  color: #1a2121;
+}
+
+.report__diagram-img{
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
+
+.report__head{
+  font-family: "Lato-Semibold", sans-serif;
+  font-size: 1.1875em;
+
+  margin: 0 0 1.3em;
+}
+
+.report__text{
+  p{
+    font-family: "Raleway-Light", sans-serif;
+    font-size: 0.75em;
+    margin: 0 0 1em 0;
+  }
+
+}

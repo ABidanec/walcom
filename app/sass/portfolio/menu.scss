@@ -1,17 +1,15 @@
 .menu__list{
   display: block;
   margin: 0 1% 0;
-  //border-bottom: 1px solid #fff;
-  text-align: justify;
+  border-bottom: 1px solid #fff;
+  text-align: center;
 
   &:after{
     content: "";
-    display: inline-block;
+    display: inline;
     width: 100%;
-    height: 1px;
-    background: #fff;
+    height: 0;
     font-size: 0;
-    margin: -10px 0 0;
   }
 }
 
@@ -20,11 +18,31 @@
 }
 
 .menu__link{
+  position: relative;
   display: inline-block;
-  padding:1.875em 1em;
+  padding:1.875em 1.5em;
   text-decoration: none;
-  @include link_hover(#fff, #aaa);
+  color: #fff;
+  @include block_hover(none, rgba(255,255,255,.3));
   text-transform: uppercase;
   font-size:0.8125em;
-  
+
+
+
+
+}
+
+.menu__link_active{
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    display: inline-block;
+    border:1px solid #fff;
+    background: #fff;
+    height: 1px;
+    width: 70%;
+    transform: translateX(-50%);
+  }
 }
