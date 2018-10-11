@@ -1,0 +1,40 @@
+.new{
+  background: $c_h_body;
+  min-height: 19.5em;
+  max-height: 19.5em;
+  padding:3em 0 2em 0;
+
+  &:after{
+    content: "";
+    display: block;
+    width: 100%;
+  }
+}
+
+.new__head{
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 2.25em;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+}
+
+.new__center{
+  position: relative;
+  width: 80%;
+  min-height:28.75em;
+  margin:-22% auto 4.4375em;
+  background: #fff url("../img/bgVideo.png") no-repeat center top;
+  border-radius: 20px;
+  box-shadow: -3.346px 3.716px 90px 0px rgba(24, 24, 24, 0.114);
+}
+
+.new__btn {
+  position: absolute;
+  background: url("../img/bgBtnVideo.png") no-repeat center top;
+  width: 52px;
+  height: 52px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

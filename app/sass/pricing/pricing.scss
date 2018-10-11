@@ -1,0 +1,59 @@
+.pricing{
+  margin: 0 0 2em;
+}
+
+.pricing__item{
+  display: inline-block;
+  width: 22%;
+  margin: 0 0 3% 3%;
+  padding: 2% 4%;
+  border: 1px solid #939393;
+  text-align: center;
+
+  &:nth-child(3n+1){
+    margin: 0 0 3% 0;
+  }
+
+  &:hover{
+    .pricing__name{
+        background: $c_h_body;
+        color: white;
+        transition: $time;
+    }
+    .btn__pricing{
+      background: #ee3873;
+      border: 1px solid $c_h_body;
+      color: #fff;
+      transition: $time;
+    }
+
+  }
+}
+
+.pricing__name{
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 1.3em;
+  padding: 0.3em 0;
+  transition: $time;
+  margin: 0 0 1em;
+}
+
+.pricing__price{
+  font-family: "Raleway-Bold", sans-serif;
+  font-size: 3em;
+  color: $c_h_body;
+  border-top: 1px solid #939393;
+  margin: 0 0 0.5em;
+  padding: 0.2em 0 0;
+}
+
+.pricing__text{
+  p{
+    font-size: 0.68em;
+  }
+}
+
+.btn__pricing{
+  @extend .btn__services;
+}
+

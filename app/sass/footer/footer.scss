@@ -1,0 +1,46 @@
+.footer{
+ border-top: 10px solid #363839;
+  background: #1f1f1f;
+  text-align: center;
+}
+
+.soc__item{
+ display: inline-block;
+ border: 1px solid #536a10;
+ transition: $time;
+ margin: 1em 0 0;
+ &:hover{
+  border-color: #fff;
+  transition: $time;
+ }
+}
+
+.soc__link{
+ position: relative;
+ display: block;
+ width: 2em;
+ height: 2em;
+ font-family: 'FontAwesome';
+ text-decoration: none;
+ color: #fff;
+ transition: $time;
+ @include block_hover(none, $c_h_body);
+
+ i{
+  position: absolute;
+ }
+
+ .fa-facebook-f{
+  top: 26%;
+  left: 32%;
+ }
+
+ .fa-google-plus{
+  top: 26%;
+  left: 17%;
+ }
+ .fa-vk{
+  top: 26%;
+  left: 16%;
+ }
+}
